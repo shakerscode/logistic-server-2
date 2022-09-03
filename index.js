@@ -34,8 +34,6 @@ async function run() {
       res.send(bookings)
     })
 
-
-
     //Booking api
     app.post('/booking', async (req, res) => {
       const booking = req.body;
@@ -54,6 +52,7 @@ async function run() {
 
 }
 
+ 
 run().catch(console.dir);
 
 
